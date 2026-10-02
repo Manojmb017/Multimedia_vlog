@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Media Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="container">
+      <span class="tag">🎬 MEDIA BLOG</span>
+      <h1>My favourite <span class="gradient-text">songs & trailers</span>, all in one place.</h1>
+      <p class="subtitle">Five tracks and five Kannada movie trailers — play them right here, right now.</p>
+      <div class="hero-buttons">
+        <a href="#music" class="btn btn-primary">🎵 Play Songs</a>
+        <a href="#videos" class="btn btn-outline">🎥 Watch Trailers</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MUSIC SECTION ===== -->
+  <section id="music" class="section">
+    <div class="container">
+      <h2 class="section-title">🎧 My Favourite Songs of All Time</h2>
+      <p class="section-sub">Five tracks I keep going back to.</p>
+
+      <div class="music-list">
+
+        <div class="song-card">
+          <div class="song-info">
+            <span class="song-number">01</span>
+            <div>
+              <h3>Jab Se Thumko Dekha</h3>
+              <p>Romantic Hindi Song</p>
+            </div>
+          </div>
+          <audio controls preload="metadata">
+            <source src="song1.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <div class="song-card">
+          <div class="song-info">
+            <span class="song-number">02</span>
+            <div>
+              <h3>Zara Zara</h3>
+              <p>Sad Hindi Song</p>
+            </div>
+          </div>
+          <audio controls preload="metadata">
+            <source src="song2.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <div class="song-card">
+          <div class="song-info">
+            <span class="song-number">03</span>
+            <div>
+              <h3>Nasha</h3>
+              <p>Bollywood Pop Song</p>
+            </div>
+          </div>
+          <audio controls preload="metadata">
+            <source src="song3.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <div class="song-card">
+          <div class="song-info">
+            <span class="song-number">04</span>
+            <div>
+              <h3>Kamar Hilawelu</h3>
+              <p>Pop Music</p>
+            </div>
+          </div>
+          <audio controls preload="metadata">
+            <source src="song4.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+        <div class="song-card">
+          <div class="song-info">
+            <span class="song-number">05</span>
+            <div>
+              <h3>Djovon Midnight</h3>
+              <p>Romantic Bollywood Song</p>
+            </div>
+          </div>
+          <audio controls preload="metadata">
+            <source src="song5.mp3" type="audio/mpeg" />
+          </audio>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRAILERS SECTION ===== -->
+  <section id="videos" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">🎥 Top 5 Kannada Movie Trailers</h2>
+      <p class="section-sub">The biggest trailers — hit play and enjoy.</p>
+
+      <div class="video-grid">
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="yt-player" data-video-id="sJwaiRN-rvc"></div>
+          </div>
+          <div class="video-info">
+            <h3>Toxic — Official Trailer</h3>
+            <p>Rocking Star Yash • Geetu Mohandas • KVN Productions</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="yt-player" data-video-id="AxX5LfbKNcI"></div>
+          </div>
+          <div class="video-info">
+            <h3>Ramayana — Official Trailer</h3>
+            <p>Namit Malhotra • Nitesh Tiwari • Ranbir Kapoor</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="yt-player" data-video-id="qXgF-iJ_ezE"></div>
+          </div>
+          <div class="video-info">
+            <h3>KGF — Official Trailer</h3>
+            <p>Yash • Srinidhi Shetty • Prashanth Neel • Hombale Films</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="yt-player" data-video-id="8mrVmf239GU"></div>
+          </div>
+          <div class="video-info">
+            <h3>Kantara — Official Trailer</h3>
+            <p>Rishab Shetty • Vijay Kiragandur • Hombale Films</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-wrap">
+            <div class="yt-player" data-video-id="REqFOV2A7sI"></div>
+          </div>
+          <div class="video-info">
+            <h3>777 Charlie — Official Trailer</h3>
+            <p>Rakshit Shetty • Kiranraj K • Paramvah Studios</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ — My Media Blog &copy; <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>s
