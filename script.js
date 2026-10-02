@@ -2,7 +2,7 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // =============================================
-// MEDIA CONTROLLER — only ONE thing plays at a time
+// MEDIA CONTROLLER — only ONE media plays at a time
 // =============================================
 
 const ytPlayers = [];
