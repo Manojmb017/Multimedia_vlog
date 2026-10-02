@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Media Blog</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=5" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -39,7 +39,10 @@
               <p>Romantic Hindi Song</p>
             </div>
           </div>
-          <audio controls preload="metadata" src="song1.mp3"></audio>
+          <audio controls preload="metadata">
+            <source src="song1.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
         </div>
 
         <div class="song-card">
@@ -50,7 +53,10 @@
               <p>Sad Hindi Song</p>
             </div>
           </div>
-          <audio controls preload="metadata" src="song2.mp3"></audio>
+          <audio controls preload="metadata">
+            <source src="song2.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
         </div>
 
         <div class="song-card">
@@ -61,7 +67,10 @@
               <p>Bollywood Pop Song</p>
             </div>
           </div>
-          <audio controls preload="metadata" src="song3.mp3"></audio>
+          <audio controls preload="metadata">
+            <source src="song3.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
         </div>
 
         <div class="song-card">
@@ -72,7 +81,10 @@
               <p>Pop Music</p>
             </div>
           </div>
-          <audio controls preload="metadata" src="song4.mp3"></audio>
+          <audio controls preload="metadata">
+            <source src="song4.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
         </div>
 
         <div class="song-card">
@@ -83,7 +95,10 @@
               <p>Romantic Bollywood Song</p>
             </div>
           </div>
-          <audio controls preload="metadata" src="song5.mp3"></audio>
+          <audio controls preload="metadata">
+            <source src="song5.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+          </audio>
         </div>
 
       </div>
@@ -156,6 +171,6 @@
     <p>Made with ❤️ — My Media Blog &copy; <span id="year"></span></p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
